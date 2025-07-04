@@ -4,3 +4,6 @@ sunucu mimarisi ile tasarlanmış olup, oyuncuların sırasıyla zar atmasını,
 hesaplamasını ve skor tablosuna göre kazananın belirlenmesini sağlar. Uygulama Java 
 Swing ile GUI (grafiksel arayüz) içerir ve çok oyunculu destek AWS üzerinden sağlanan bir 
 sunucu aracılığıyla gerçekleştirilmiştir. 
+
+YahtzeeClient classındaki String serverAddress = "13.53.42.45"; satırını 
+String serverAddress = "localhost"; şeklinde değiştirirseniz aws üzerinden sunucu ip'si almadan kendi bilgisyarınız üzerinden çalıştırabilrisiniz
